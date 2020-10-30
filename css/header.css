@@ -1,27 +1,20 @@
 .conteiner {
 	width: 100%;
-	/* max-width: 1250px; */
 	margin: 0 auto;
-	
+
 }
 .header {
 	position: inherit;
 	margin: 0 auto;
 	padding: 0;
-	/*width: 100%;*/
-	
-	/*max-width: 1920px;*/
 	max-height: 1020px;
 	background: url(../img/photo2.jpg)center no-repeat;
  	-webkit-background-size: cover;
  	background-size: cover;
- }	
-
+ }
 .header a {
 	color: #fff;
 }
-
-
 .menu_left {
 	align-items: center;
 	display: flex;
@@ -54,7 +47,6 @@
     color: #c7b299;
     transition: 0.2s;
 }
-
 .imgfon {
 	background-size: cover;
     background-repeat: no-repeat;
@@ -66,10 +58,7 @@
 	top: 0;
 	left: 0;
 	z-index: -1;
-
 }
-
-
 .header_slogan {
 	max-width:1170px;
 	margin: 0 auto;
@@ -89,26 +78,19 @@
   font-weight: bold;
   padding-top: 20px;
   padding-bottom: 20px;
-
 }
 
 .header_slogan h4 {
   font-size: 36px;
   font-family: "Raleway";
   font-weight: 400;
-
-
 }
-
 .header_slogan p {
   font-size: 16px;
   font-family: "Montserrat";
   line-height: 1.5;
   padding-bottom: 50px;
 }
-
-
-
 .header_buttom {
   font-size: 14px;
   font-family: "Raleway";
@@ -127,15 +109,12 @@
 	border-radius: 10px;
 	background-color: rgb( 153, 134, 117 );
 	border-bottom-color: #736357;
-
 }
 .header_buttom:hover {
 	transition: 0.3s;
 	background-color: #362f2d;
 	border-radius: 3px;
 }
-
-
 .menu {
 	padding-top: 40px;
 	margin: 0 auto;
@@ -147,8 +126,6 @@
 	 transition: .2s;
 }
 /* To JavaScript   scroll menu */
-
-
 
 .ScrollFixed {
 	z-index: 1000;

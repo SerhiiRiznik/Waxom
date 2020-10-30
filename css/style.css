@@ -53,22 +53,6 @@
 	display: block;
 	margin-bottom: -3px;
 }
-/*.services_info:hover:before {
-	content: "";
-	transition: 10s;
-	margin: 0 auto;
-	width: 44px;
-	height: 44px;
-	background-color: #000;
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 115px;
-	background: url(../img/icons/services-icon/icon2.png);
-
-}*/
-
-
 .waxom-ideas {
 	padding-top:160px;
 	text-align: center;
@@ -94,8 +78,6 @@
 .waxom-ideas img {
 	max-width: 100%;
 }
-
-
 .row-box {
 
 	display: flex;
@@ -143,9 +125,6 @@
   line-height: 1.643;
   text-align: center;
 }
-
-
-.projects {}
 .projects-text {
 	margin: 0 auto;
 	max-width: 770px;
@@ -166,7 +145,6 @@
   color: rgb( 140, 140, 140 );
   line-height: 1.75;
 }
-
 .projects-item__categories{
 	padding-bottom: 40px;
 	margin: 0 auto;
@@ -182,7 +160,6 @@
   color: rgb( 140, 140, 140 );
   line-height: 1.5;
   text-align: center;
-  
 
 	height: 35px;
 	align-items: center;
@@ -197,7 +174,6 @@
 	background-color: #998675;
 	border-radius: 3px;
 }
-
 .projects-item {
 	margin: 0 auto;
 	display: flex;
@@ -230,9 +206,6 @@
   color: rgb( 199, 178, 153 );
   text-align: left;
 }
-
-
-
 .projects-item__subtittle {
 	position: relative;
 	padding-top: 13px;
@@ -307,9 +280,6 @@
   line-height: 1.714;
   text-align: center;
 }
-.video-fon_video {}
-
-
 .video-fon_video img {
 	width: 100%;
 	position: absolute;
@@ -317,18 +287,14 @@
 	left: 0;
 	z-index: -1;
 }
-
 .logo {
 	display: flex;
 	justify-content: center;
 }
-
 .video-fon_top {
 	display: flex;
 	flex-direction: column;
 }
-
-
 .mobile-devices_all {
 	display: flex;
 	flex-wrap: wrap;
@@ -369,7 +335,6 @@
 	padding-right: 20px;
 	background-image: url(../img/arrow.png);
 }
-
 .categorie-li:hover:before{
 	content: "";
 	width: 21px;
@@ -378,14 +343,6 @@
 	margin-right: 20px;
 	background-image: url(../img/arrow.png);
 }
-
-
-.categorie-li {
-
-}
-
-
-
 .row-box__counters {
 	display: flex;
 	justify-content: space-around;
@@ -396,7 +353,6 @@
 	background-image: -moz-linear-gradient( 0deg, rgb( 33, 27, 25 ) 0%, rgb( 78, 52, 39 ) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb( 33, 27, 25 ) 0%, rgb( 78, 52, 39 ) 100%); 
 }
-
 .counters {
 	display: flex;
 	justify-content: center;
@@ -454,13 +410,9 @@
 	display: block;
 	background-color: rgb( 199, 178, 153 );
 }
-
-
-
-
 .partners {
 	width: 100%;
-	height: 570px;
+	height: 350px;
 	background: url(../img/photo4.jpg)center center no-repeat;
 }
 .logos {
@@ -472,40 +424,3 @@
 	max-width: 1250px;
 	margin: 0 auto;
 }
-
-.logos img {
-	height: 220px;
-	width: 250px;
-}
-
-
-
-.map {
-	width: 100%;
-	height: 300px;
-	background-attachment: fixed;
-	background-color: #fff;
-	transition: 10s;
-}
-
-
-
-
-
-
-
-
-
-
-
-.Stop {
-	height: 400px;
-	width: 100%;
-	background-color: #123643 
-}
-
-
-
-
-
-
