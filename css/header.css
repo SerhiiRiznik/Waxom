@@ -1,0 +1,184 @@
+.conteiner {
+	width: 100%;
+	/* max-width: 1250px; */
+	margin: 0 auto;
+	
+}
+.header {
+	position: inherit;
+	margin: 0 auto;
+	padding: 0;
+	/*width: 100%;*/
+	
+	/*max-width: 1920px;*/
+	max-height: 1020px;
+	background: url(../img/photo2.jpg)center no-repeat;
+ 	-webkit-background-size: cover;
+ 	background-size: cover;
+ }	
+
+.header a {
+	color: #fff;
+}
+
+
+.menu_left {
+	align-items: center;
+	display: flex;
+	justify-content: space-between;
+}
+.logo_text {
+	font-size: 34px;
+    font-family: "Raleway";
+    color: rgb( 255, 255, 255 );
+    text-align: right;
+}
+.menu_nav {
+	max-width: 770px;
+}
+.menu_nav ul, li {
+	margin: 0 auto;
+	align-items: center;
+	display: flex;
+	padding-left: 30px;
+	font-size: 14px;
+    font-family: "Montserrat";
+    color: rgb( 255, 255, 255 );
+    text-align: center;
+}
+.menu_nav ul, li:first-child {
+    padding-left: 0px;
+}
+.menu_nav li a:hover {
+	/*font-size: 16px;*/
+    color: #c7b299;
+    transition: 0.2s;
+}
+
+.imgfon {
+	background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+
+}
+
+
+.header_slogan {
+	max-width:1170px;
+	margin: 0 auto;
+	padding-top: 200px;
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	width: 100%;
+	align-items: center;
+	text-align: center;
+	padding-bottom: 85px;
+}
+
+.header_slogan h1 {
+  font-size: 52px;
+  font-family: "Raleway";
+  font-weight: bold;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+}
+
+.header_slogan h4 {
+  font-size: 36px;
+  font-family: "Raleway";
+  font-weight: 400;
+
+
+}
+
+.header_slogan p {
+  font-size: 16px;
+  font-family: "Montserrat";
+  line-height: 1.5;
+  padding-bottom: 50px;
+}
+
+
+
+.header_buttom {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: rgb( 255, 255, 255 );
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.643;
+  text-align: center;
+	margin: 0 auto;
+	width: 170px;
+	height: 50px;
+	border: 1px solid;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-radius: 10px;
+	background-color: rgb( 153, 134, 117 );
+	border-bottom-color: #736357;
+
+}
+.header_buttom:hover {
+	transition: 0.3s;
+	background-color: #362f2d;
+	border-radius: 3px;
+}
+
+
+.menu {
+	padding-top: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+    align-items: center;
+	 flex-wrap: wrap;
+	 transition: .2s;
+}
+/* To JavaScript   scroll menu */
+
+
+
+.ScrollFixed {
+	z-index: 1000;
+	padding: 5px 0;
+	position: fixed;
+	background-color: #362f2d;
+	box-shadow: #362;
+	transition: .2s;
+	width: 100%;
+}
+
+.Top{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.goTop {
+	border-radius: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	align-content: center;
+	width: 35px;
+	height: 35px;
+	background: url(../img/pointer-inside-a-circle.png);
+	background-position: center;
+	background-size: cover;
+}
+#quote{
+  font-size:44px;
+  line-height:50px;
+  color:#dedede;
+}
